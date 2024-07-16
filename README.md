@@ -10,7 +10,8 @@
    `conda create -n your_env_name python==3.10 -y`
 2. 完成SSH连接与端口映射并运行 hello_world.py
    激活环境并运行py文件
-   ```conda activate your_env_name
+   ```
+   conda activate your_env_name
    python hello_world.py
    ```
 
@@ -18,7 +19,8 @@
 结果参考笔记：[L0-python](https://blog.csdn.net/LeLe_88888888/article/details/140438701?spm=1001.2014.3001.5502)
 1. 实现一个word_count函数
    
-```import re
+```
+import re
 from collections import Counter
  
 def wordcount(text):
@@ -34,6 +36,8 @@ def wordcount(text):
    ```
 2. Vscode连接InternStudio debug
   
-  ```python -m pdb word_count.py
-  //(Pdb) 会自动停在第一行，等待调试```
+```
+python -m pdb word_count.py
+  //(Pdb) 会自动停在第一行，等待调试
+```
   
