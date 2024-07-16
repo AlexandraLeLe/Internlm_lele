@@ -7,19 +7,18 @@
 过程结果参考笔记：[L0-Linux](https://blog.csdn.net/LeLe_88888888/article/details/140351400?spm=1001.2014.3001.5502)
 1. 本地VSCode中通过SSH连接远程开发机
    连接成功后创建虚拟环境
-   'conda create -n your_env_name python==3.10 -y'
+   `conda create -n your_env_name python==3.10 -y`
 2. 完成SSH连接与端口映射并运行 hello_world.py
    激活环境并运行py文件
-   '''
-   conda activate your_env_name
+   `conda activate your_env_name
    python hello_world.py
-   '''
+   `
 
 ## L0-python任务
 结果参考笔记：[L0-python](https://blog.csdn.net/LeLe_88888888/article/details/140438701?spm=1001.2014.3001.5502)
 1. 实现一个word_count函数
-   '''
-import re
+   
+`import re
 from collections import Counter
  
 def wordcount(text):
@@ -32,9 +31,9 @@ def wordcount(text):
     # 使用Counter计算每个单词出现的次数
     word_count = Counter(words)
     return dict(word_count)
-   '''
+   `
 2. Vscode连接InternStudio debug
-  '''
-  python -m pdb word_count.py
-  //(Pdb) 会自动停在第一行，等待调试
-  '''
+  
+  `python -m pdb word_count.py
+  (Pdb) 会自动停在第一行，等待调试`
+  
