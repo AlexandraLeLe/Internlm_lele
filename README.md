@@ -1,7 +1,13 @@
 #书生大模型
-  [实战营](https://github.com/InternLM/Tutorial)
+  **[实战营](https://github.com/InternLM/Tutorial "书生-实战")**
+[toc]
+
 闯关任务
 ![闯关任务](https://github.com/user-attachments/assets/ba26e9e8-a6ac-42ac-9e89-67b5b1bc3a5e)
+
+- [ ] L0-Linux任务
+- [ ] L0-Python任务
+- [ ] L1
 
 ## L0-Linux任务
 过程结果参考笔记：[L0-Linux](https://blog.csdn.net/LeLe_88888888/article/details/140351400?spm=1001.2014.3001.5502)
